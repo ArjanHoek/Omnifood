@@ -180,6 +180,9 @@ h3 {
 }
 
 .chair-icon {
+  stroke: var(--main-color);
+  width: 24px;
+  height: 24px;
 }
 
 .chair-price {
@@ -192,4 +195,11 @@ footer {
   margin-bottom: 48px;
   font-size: 14px;
   color: var(--text-color-light);
+}
+
+.features-icon {
+  stroke: var(--main-color);
+  width: 32px;
+  height: 32px;
+  margin-bottom: 16px;
 }
