@@ -15,8 +15,26 @@ html {
 }
 
 header {
-  background-color: red;
   height: 100vh;
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.6),
+      rgba(34, 34, 34, 0.6)
+    ),
+    url(../img/hero.jpg);
+  background-size: cover;
+  color: #fff;
+}
+
+.hero-container {
+  position: relative;
+  height: 100%;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50%;
 }
 
 nav {
@@ -24,11 +42,13 @@ nav {
   font-weight: 700;
   display: flex;
   justify-content: space-between;
+  padding-top: 32px;
 }
 
 h1 {
   font-size: 52px;
   margin-bottom: 32px;
+  line-height: 1.05;
 }
 
 p {
