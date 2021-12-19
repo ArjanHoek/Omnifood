@@ -1,0 +1,21 @@
+:root {
+  --main-color: #099268;
+  --text-main-1: #e6fcf5;
+  --text-main-2: #c3fae8;
+  --text-color-dark: #343a40;
+  --text-color-medium: #868e96;
+  --text-color-light: #ced4da;
+}
+
+/* INITIAL STYLING */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--text-color-dark);
+  line-height: 1;
+}
