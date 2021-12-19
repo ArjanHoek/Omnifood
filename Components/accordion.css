@@ -5,6 +5,7 @@
   --text-color-light: #ced4da;
 }
 
+/* INITIAL STYLING */
 * {
   margin: 0;
   padding: 0;
@@ -17,6 +18,7 @@ body {
   line-height: 1;
 }
 
+/* COMPONENT STYLING */
 .accordion {
   width: 700px;
   margin: 100px auto;
@@ -50,6 +52,7 @@ body {
   width: 24px;
   height: 24px;
   stroke: var(--main-color);
+  cursor: pointer;
 }
 
 .hidden-box {
@@ -70,7 +73,7 @@ body {
   gap: 12px;
 }
 
-/* OPEN ITEM */
+/* OPEN ITEM STYLING */
 .item.open {
   border-top: 4px solid var(--main-color);
 }
