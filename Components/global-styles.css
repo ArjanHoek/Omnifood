@@ -5,6 +5,9 @@
   --text-color-dark: #343a40;
   --text-color-medium: #868e96;
   --text-color-light: #ced4da;
+
+  --row-color-light: #f8f9fa;
+  --row-color-dark: #e9ecef;
 }
 
 /* INITIAL STYLING */
