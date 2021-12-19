@@ -1,0 +1,43 @@
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+.pagination {
+  width: 600px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid var(--main-color);
+  color: var(--main-color);
+  cursor: pointer;
+}
+
+.icon {
+  height: 18px;
+}
+
+.page-number {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.page-number.active,
+.page-number:hover,
+.btn:hover {
+  background-color: var(--main-color);
+  color: #fff;
+}
