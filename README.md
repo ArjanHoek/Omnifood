@@ -1,15 +1,15 @@
-# Description
+# DESCRIPTION
 
 This project was created as part of a course. I followed this course to improve my HTML and CSS skills and to learn more about the best practices of those languages. A live preview can be found at: https://arjanhoek.github.io/Omnifood/
 
-# Tools
+## TOOLS
 
-## FONTS/ICONS
+### Fonts and icons
 
-https://fonts.google.com
-https://ionic.io/ionicons
+- https://fonts.google.com
+- https://ionic.io/ionicons
 
-## COLORS
+### Colors
 
-https://yeun.github.io/open-color
-https://coolors.co/contrast-checker
+- https://yeun.github.io/open-color
+- https://coolors.co/contrast-checker
