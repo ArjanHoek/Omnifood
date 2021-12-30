@@ -12,4 +12,5 @@ This project was created as part of a course. I followed this course to improve 
 ### Colors
 
 - https://yeun.github.io/open-color
+- https://maketintsandshades.com (using #e67e22)
 - https://coolors.co/contrast-checker
