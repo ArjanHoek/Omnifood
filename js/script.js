@@ -26,10 +26,37 @@ Array.from(allLinks).forEach(link => {
 
     if (href !== '#' && href.startsWith('#')) {
       const sectionEl = document.querySelector(href);
-      sectionEl.scrollIntoView({ behavior: 'smooth' });
+
+      window.scrollTo({
+        top: sectionEl.getBoundingClientRect().top + window.pageYOffset - 80,
+        behavior: 'smooth',
+      });
     }
   });
 });
+
+// Sticky navigation
+const sectionHeroEl = document.querySelector('.section-hero');
+const observer = new IntersectionObserver(
+  function (entries) {
+    const ent = entries[0];
+
+    if (!ent.isIntersecting) {
+      document.body.classList.add('sticky');
+    } else {
+      document.body.classList.remove('sticky');
+    }
+  },
+  {
+    // Set to null to refer to viewport
+    root: null,
+    // Triggers when 0% of the specified element is inside the viewport
+    threshold: 0,
+    rootMargin: '-80px',
+  }
+);
+
+observer.observe(sectionHeroEl);
 
 // Fixing flexbox gap property missing in some Safari versions
 // function checkFlexGap() {
